@@ -8,3 +8,4 @@ class PortfolioItem(models.Model):
     slug = models.CharField(max_length=50, unique=True, db_index=True)
     photo = models.ImageField(upload_to='portfolioItem')
 
+
