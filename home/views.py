@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from .models import PortfolioItem, About, Team
+from .models import PortfolioItem, About
 
 
 # Create your views here.
